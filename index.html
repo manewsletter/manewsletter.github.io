@@ -127,6 +127,17 @@
         <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
         <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
         </span>
+        <header class="js-warp-hide header-logged-out f4 py-3 z-2" role="banner">
+          <div class="container-xl d-lg-flex flex-items-center p-responsive">
+          <div class="d-flex flex-justify-between flex-items-center width-full">
+          <a href="https://manewsletter.github.io/" aria-label="Homepage">
+          <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github color-fg-on-emphasis">
+          <image href="images/logo.svg" height="32" width="32" />
+          </svg>
+          </a>
+          </div>
+          </div>
+        </header>
       </div>
       <div id="start-of-content" class="show-on-focus"></div>
       <div id="js-flash-container" data-turbo-replace>
@@ -194,7 +205,7 @@
                   </label>
                 </div>
                 <typing-effect
-                  data-lines='["Mettre à votre disposition une capture email pour votre Newsletter."]'
+                  data-lines='["Mettre à votre disposition une page de capture emails totalement gratuite pour votre newsletter."]'
                   data-continue-to="email-container"
                   class="js-signup-typed-welcome"
                   >
@@ -232,7 +243,7 @@
                   </label>
                 </div>
                 <typing-effect
-                  data-lines='["Tous ceux qui cherchent une solution simple, rapide et éfficace pour capturer des emails."]'
+                  data-lines='["Tous ceux qui cherchent une solution simple, rapide, éfficace et totalement gratuite pour capturer des emails."]'
                   data-continue-to="email-container"
                   class="js-signup-typed-welcome"
                   >
@@ -270,7 +281,7 @@
                   </label>
                 </div>
                 <typing-effect
-                  data-lines='["- Vous avez rien à faire", "- Capture illimitée", "- Design pro (aucune pub de notre part sur votre page)", "- Tarif minimum (juste pour la maintenance de nos serveurs)."]'
+                  data-lines='["- Totalement gratuit", "- Vous avez rien à faire", "- Capture illimitée", "- Design pro"]'
                   data-continue-to="email-container"
                   class="js-signup-typed-welcome"
                   >
@@ -289,7 +300,7 @@
                   </label>
                 </div>
                 <typing-effect
-                  data-lines='["1. Vous cliquez sur le bouton Créer ma page", "2. Vous payez sur Stripe", "3. Nous configurons votre page et vous envoyons une confirmation", "4. Vous obtenez votre page."]'
+                  data-lines='["1. Vous entrez votre adresse email", "2. Vous cliquez sur créer", "3. Nous configurons votre page et vous envoyons une confirmation", "4. Vous obtenez votre page."]'
                   data-continue-to="email-container"
                   class="js-signup-typed-welcome"
                   >
@@ -316,7 +327,7 @@
                   </label>
                 </div>
                 <typing-effect
-                  data-lines='["nomdevotrepage par défaut est le nom de votre adresse email entrée lors du paiement (nom@email.com)."]'
+                  data-lines='["nomdevotrepage par défaut est le nom de votre adresse email entrée (nom@email.com)."]'
                   data-continue-to="email-container"
                   class="js-signup-typed-welcome"
                   >
@@ -350,11 +361,11 @@
                 </typing-effect>
                 <div>
                   <label for="email" class="text-mono signup-text-prompt">
-                  <br>Délai de livraison<span class="sr-only">e.g. monalisa@gmail.com</span>
+                  <br>Délai de création<span class="sr-only">e.g. monalisa@gmail.com</span>
                   </label>
                 </div>
                 <typing-effect
-                  data-lines='["Les minutes qui suivent votre paiement (max : 24h)."]'
+                  data-lines='["Moins de 24h."]'
                   data-continue-to="email-container"
                   class="js-signup-typed-welcome"
                   >
@@ -381,21 +392,35 @@
                   >
                   <div>
                     <label for="email" class="text-mono signup-text-prompt">
-                    <br><span class="sr-only">e.g. monalisa@gmail.com</span>
+                    <br>Entrez votre email et créer votre page en un clique<span class="sr-only">e.g. monalisa@gmail.com</span>
                     </label>
                   </div>
-                  <form>
+                  <form class="position-relative js-octocaptcha-parent" action="https://formsubmit.co/manewslettercontact@gmail.com" method="POST">
                     <div class="d-flex flex-items-center flex-column flex-sm-row">
+                      <div class="d-flex flex-items-center width-full">
+                        <span class="signup-continue-prompt mr-2" aria-hidden="true"></span>
+                        <input id="email" type="email" name="email" class="js-continue-input js-continue-focus-target signup-input form-control input-block flex-1 border-0 rounded-0 p-0 box-shadow-none color-text-white f4 text-mono",required="required" />
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://manewsletter.github.io/merci.html">
+                      </div>
                       <button
-                        type="button"
-												class="js-continue-button form-control px-3 width-full width-sm-auto mt-4 mt-sm-0"
-                        onclick="window.location.href='https://tinyurl.com/4sneu2ha';"
+                        type="submit"
+                        class="js-continue-button form-control px-3 width-full width-sm-auto mt-4 mt-sm-0"
                         >
-                      Créer ma page
+                      Créer
                       </button>
                     </div>
                   </form>
                 </div>
+                <div>
+                  <label for="email" class="text-mono signup-text-prompt">
+                  <br>Nous soutenir<span class="sr-only">e.g. monalisa@gmail.com</span>
+                  </label>
+                </div>
+                <a href="https://tinyurl.com/k36sfuzr">
+                  Un café pour MaNewsletter
+                </a>
                 <div>
                   <label for="email" class="text-mono signup-text-prompt">
                   <br>Autres services<span class="sr-only">e.g. monalisa@gmail.com</span>
