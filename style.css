@@ -4006,7 +4006,7 @@ html.scrollbar {
 }
 
 .max-container {
-    max-width: 1320px;
+    max-width: 880px;
     margin-left: auto;
     margin-right: auto;
     padding: 0.75rem
@@ -4193,7 +4193,7 @@ html.scrollbar {
 @media (min-width: 1024px) {
     .mdLayout .h2-wrap>.h3-wrap-list {
         display:grid;
-        grid-template-columns: repeat(3,minmax(0,1fr));
+        grid-template-columns: repeat(2,minmax(0,1fr));
         gap: 1.75rem
     }
 
