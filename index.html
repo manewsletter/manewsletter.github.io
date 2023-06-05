@@ -257,12 +257,13 @@
       $(document).ready(function(){
         $(".owl-carousel").owlCarousel({
           items: 1,
-          loop: false,
+          loop: true,
           autoplay: true,
           autoplayTimeout: 3000,
           autoplayHoverPause: true
         });
       });
+      $owlCarousel.trigger('refresh.owl.carousel');
     </script>
     <script>
       const today = new Date();
