@@ -121,7 +121,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
       }
       .swiper-slide img {
         max-height: 100%;
@@ -270,17 +270,19 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      });
+      window.onload = function() {
+        var swiper = new Swiper('.swiper-container', {
+          loop: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      };
     </script>
     <script>
       const today = new Date();
