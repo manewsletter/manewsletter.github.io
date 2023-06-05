@@ -114,9 +114,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-      fbq('track', 'ViewContent');
-    </script>
     <style>
       .owl-carousel .item {
         display: flex;
@@ -129,23 +126,6 @@
         width: auto;
       }
     </style>
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '234515809301764');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=234515809301764&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
   </head>
   <body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
     <div data-turbo-body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
@@ -201,19 +181,16 @@
             <div class="pt-10 pb-4 pb-md-7 d-flex flex-column px-3 pt-8 flex-lg-column flex-items-center text-center" data-hpc="">
               <h1 class="h1-mktg col-10-max color-fg-default mx-auto">Edition <span>Limitée</span></h1>
               <p class="f3-mktg mt-4 color-fg-muted mx-auto col-7-max">Cette tasse fleurie apportera une touche de fraîcheur et de nature à votre intérieur.</p>
-
               <div class="owl-carousel">
                 <div class="item"><img src="images/mugfleur.png" loading="lazy" height="330" /></div>
                 <div class="item"><img src="images/mugfleur2.png" loading="lazy" height="330" /></div>
                 <div class="item"><img src="images/mugfleur3.png" loading="lazy" height="330" /></div>
               </div>
-
               <div class="mt-4 mt-md-6 mb-4 position-relative z-2 by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row" >
                 <div class="by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row">
                   <script async
                     src="https://js.stripe.com/v3/buy-button.js">
                   </script>
-
                   <stripe-buy-button
                     buy-button-id="buy_btn_1NFNe7CgjaEg7MSOYxmAv6yV"
                     publishable-key="pk_live_51MbaYgCgjaEg7MSOR9Q5fNWRybkEIFDD1A4eMoKXLlOEPui6RrpvY0HhPlZRq0mPRmzFytKtacqrdpwbVq4l4Srx00oaiVHOeM"
