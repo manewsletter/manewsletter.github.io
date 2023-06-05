@@ -111,19 +111,31 @@
     <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
     <meta name="theme-color" content="#1e2327">
     <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <style>
-      .owl-carousel .item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
+      .swiper-container {
+        width: 100%;
+        height: 350px;
       }
-      .owl-carousel .item img {
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .swiper-slide img {
         max-height: 100%;
         width: auto;
+      }
+      .swiper-container {
+        position: relative;
+      }
+
+      .swiper-pagination {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
       }
     </style>
   </head>
@@ -181,10 +193,13 @@
             <div class="pt-10 pb-4 pb-md-7 d-flex flex-column px-3 pt-8 flex-lg-column flex-items-center text-center" data-hpc="">
               <h1 class="h1-mktg col-10-max color-fg-default mx-auto">Edition <span>Limitée</span></h1>
               <p class="f3-mktg mt-4 color-fg-muted mx-auto col-7-max">Cette tasse fleurie apportera une touche de fraîcheur et de nature à votre intérieur.</p>
-              <div class="owl-carousel">
-                <div class="item"><img src="images/mugfleur.png" loading="lazy" height="330" /></div>
-                <div class="item"><img src="images/mugfleur2.png" loading="lazy" height="330" /></div>
-                <div class="item"><img src="images/mugfleur3.png" loading="lazy" height="330" /></div>
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/mugfleur.png" height="350"/></div>
+                  <div class="swiper-slide"><img src="images/mugfleur2.png" height="350"/></div>
+                  <div class="swiper-slide"><img src="images/mugfleur3.png" height="350"/></div>
+                </div>
+                <div class="swiper-pagination"></div>
               </div>
               <div class="mt-4 mt-md-6 mb-4 position-relative z-2 by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row" >
                 <div class="by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row">
@@ -253,17 +268,19 @@
         </div>
       </template>
     </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-          items: 1,
-          loop: true,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          autoplayHoverPause: true
-        });
+      var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
       });
-      $owlCarousel.trigger('refresh.owl.carousel');
     </script>
     <script>
       const today = new Date();
