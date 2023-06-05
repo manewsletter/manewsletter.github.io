@@ -270,7 +270,7 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      window.onload = function() {
+      function initSwiper() {
         var swiper = new Swiper('.swiper-container', {
           loop: true,
           autoplay: {
@@ -282,7 +282,19 @@
             clickable: true,
           },
         });
-      };
+      }
+
+      // Initialisation du diaporama lors du chargement initial
+      initSwiper();
+
+      // Réinitialisation du diaporama lorsque la page est chargée à nouveau
+      window.addEventListener('pageshow', function(event) {
+        // Vérifie si la page est chargée depuis le cache
+        if (event.persisted) {
+          // Réinitialise le diaporama
+          initSwiper();
+        }
+      });
     </script>
     <script>
       const today = new Date();
