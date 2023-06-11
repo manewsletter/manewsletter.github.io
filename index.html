@@ -1,344 +1,882 @@
 <!DOCTYPE html>
-<html lang="en"  class="color-bg-dark-mktg" data-a11y-animated-images="system">
-  <head>
-    <meta charset="utf-8">
-    <link rel="dns-prefetch" href="https://github.githubassets.com">
-    <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
-    <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
-    <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
-    <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
-    <link rel="preconnect" href="https://avatars.githubusercontent.com">
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-fe3f886b577a.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a1dbeda2886c.css" />
-    <link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-fe3f886b577a.css" />
-    <link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark-a1dbeda2886c.css" />
-    <link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-1ad5cf51dfeb.css" />
-    <link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-11d3505dc06a.css" />
-    <link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-8b800495504f.css" />
-    <link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-daa38c88b795.css" />
-    <link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-1b9ea565820a.css" />
-    <link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-e4be9332dd6c.css" />
-    <link data-color-theme="dark_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_tritanopia-0dcf95848dd5.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-7cc439b4edd0.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-835b815139bc.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-b46e0c81f808.css" />
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/site-6189289b40b7.css" />
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-b6f89c3bbcb0.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-327bbf-0aaeb22dd2a5.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-21fc7a4a0e8f.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/environment-9fa8265d4c66.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-99e288659d4f.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-e3de700a4c9d.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-44ef1e-ff95e778f461.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_details-dialog-element_dist_index_js-node_modules_github_memoize_-8664b7-b1d9fac72bf3.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-menu-element_-bb7a4e-8ca5bb7b5e7e.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_text-ex-3415a8-7ecc10fb88d0.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_tab-container-element_dist_index_js-node_modules_github_auto-comp-bf192d-81631767a9f8.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-6a1af4-68db00c62e33.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-6810ff4768f2.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-cdab1e44f828.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-424aa982deef.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-ba0e4d5b3207.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_hotkey_dist_index_js-b47a28757074.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_github_hydro-analyt-f69502-d8672aa6f36b.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_template-parts_lib_-273494-0fb4f42e57f4.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-1bdbba-dd6debfb8eb8.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-37e0a97aa2ee.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_be-f5afdb-09a03d8bfce2.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-0af96d15a250.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-2e2258-7effad8d88d4.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-80a9915bf75c.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-314586a37f5a.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-fe0b8ccc90a5.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-86e9ba7bffb7.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-34fe8f-cb3b1175eff3.js"></script>
-    <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/marketing-24ab4ca036f8.js"></script>
-    <title>Manewsletter</title>
-    <meta name="route-pattern" content="/features/codespaces(.:format)">
-    <meta name="current-catalog-service-hash" content="ce943987c778907df764438baac46086f33f5d3b33266fa938f01cd3675952f0">
-    <meta name="request-id" content="4F57:E2DF:14A0C8B:14FA461:64276302" data-pjax-transient="true"/>
-    <meta name="html-safe-nonce" content="b6c601e10b7bd77997bd9be74e0fad3fe0c3bbfb5edf2f5cf4367c1c794ff087" data-pjax-transient="true"/>
-    <meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9mZWF0dXJlcy9zZWN1cml0eSIsInJlcXVlc3RfaWQiOiI0RjU3OkUyREY6MTRBMEM4QjoxNEZBNDYxOjY0Mjc2MzAyIiwidmlzaXRvcl9pZCI6IjYzOTg0OTg5MDg5NTc3OTQ4NzkiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJmcmEifQ==" data-pjax-transient="true"/>
-    <meta name="visitor-hmac" content="ffd847c751238716c9751884f097fac2c35b89093fa9ac24cb12e91a4014186c" data-pjax-transient="true"/>
-    <meta name="github-keyboard-shortcuts" content="" data-turbo-transient="true" />
-    <meta name="selected-link" value="/features/codespaces" data-turbo-transient>
-    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
-    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
-    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
-    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
-    <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
-    <meta name="octolytics-url" content="https://collector.github.com/github/collect" />
-    <meta name="user-login" content="">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Spin up fully configured dev environments in the cloud that start in seconds.">
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
-    <link rel="fluid-icon" href="images/logo.svg" title="Manewsletter">
-    <meta property="fb:app_id" content="1401488693436528">
-    <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://github.githubassets.com/images/modules/site/social-cards/codespaces-ga-individuals.jpg" />
-    <meta name="twitter:site" content="@github" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Start coding instantly with Codespaces" />
-    <meta name="twitter:description" content="Spin up fully configured dev environments in the cloud that start in seconds." />
-    <meta property="og:image" content="https://github.githubassets.com/images/modules/site/social-cards/codespaces-ga-individuals.jpg" />
-    <meta property="og:image:alt" content="Spin up fully configured dev environments in the cloud that start in seconds." />
-    <meta property="og:site_name" content="GitHub" />
-    <meta property="og:type" content="object" />
-    <meta property="og:title" content="Start coding instantly with Codespaces" />
-    <meta property="og:url" content="https://manewsletter.github.io" />
-    <meta property="og:description" content="Spin up fully configured dev environments in the cloud that start in seconds." />
-    <link rel="assets" href="https://github.githubassets.com/">
-    <meta name="hostname" content="github.com">
-    <meta name="expected-hostname" content="github.com">
-    <meta name="enabled-features" content="TURBO_EXPERIMENT_RISKY,IMAGE_METRIC_TRACKING,GEOJSON_AZURE_MAPS,ENHANCED_ISSUE_SUGGESTER,ENHANCED_ISSUE_SUGGESTER_DARKSHIP,ACTIONS_SIGNALR_RECONNECT_JITTER">
-    <meta http-equiv="x-pjax-version" content="d647bbaccaa9496d376a591d358f96363cb291c5476a1b3ccfffa9caaf211cf5" data-turbo-track="reload">
-    <meta http-equiv="x-pjax-csp-version" content="1da3e7794e51aa75cd0e061a6e2526aaffe00de09b18a79f88013614a89e64c2" data-turbo-track="reload">
-    <meta http-equiv="x-pjax-css-version" content="4348eaad052c579eeef923d5acd5631e65f863303fac28c0e8f3a5189ae13379" data-turbo-track="reload">
-    <meta http-equiv="x-pjax-js-version" content="124522a613f335969716e4f7c286c4a15849208338156e38371ea13453b65025" data-turbo-track="reload">
-    <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/feature-codespaces-8b913eaaa65e.css" />
-    <link rel="preload" href="https://github.githubassets.com/static/fonts/github/mona-sans.woff2" as="font" type="font/woff2" crossorigin>
-    <meta name="is_logged_out_page" content="true">
-    <meta name="turbo-body-classes" content="logged-out env-production page-responsive header-overlay">
-    <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
-    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
-    <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
-    <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
-    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-    <meta name="theme-color" content="#1e2327">
-    <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <style>
-      .swiper-container {
-        width: 100%;
-        height: 350px;
-      }
-      .swiper-slide {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+<html lang="en">
 
-      }
-      .swiper-slide img {
-        max-height: 100%;
-        width: auto;
-      }
-      .swiper-container {
-        position: relative;
-      }
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-      .swiper-pagination {
-        position: absolute;
-        right: 10px;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-    </style>
-  </head>
-  <body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
-    <div data-turbo-body class="logged-out env-production page-responsive header-overlay" style="word-wrap: break-word;">
-      <div class="position-relative js-header-wrapper ">
-        <a href="#start-of-content" class="px-2 py-4 color-bg-accent-emphasis color-fg-on-emphasis show-on-focus js-skip-to-content">Skip to content</a>
-        <span data-view-component="true" class="progress-pjax-loader Progress position-fixed width-full">
-        <span style="width: 0%;" data-view-component="true" class="Progress-item progress-pjax-loader-bar left-0 top-0 color-bg-accent-emphasis"></span>
-        </span>
-        <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/sessions-4849c97a18f4.js"></script>
-        <header class="js-warp-hide header-logged-out f4 py-3 z-2" role="banner">
-          <div class="container-xl d-lg-flex flex-items-center p-responsive">
-          <div class="d-flex flex-justify-between flex-items-center width-full">
-            <a href="https://manewsletter.github.io/" aria-label="Homepage">
-              <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github color-fg-on-emphasis">
-              <image href="images/logo.svg" height="16" width="16" />
-              </svg>
-            </a>
-          <div class="font-mktg">
-            <a href="https://manewsletter.github.io/contact.html" class="color-fg-on-emphasis">
-              Contact →
-            </a>
-          </div>
-          </div>
-          </div>
-        </header>
-      </div>
-      <div id="start-of-content" class="show-on-focus"></div>
-      <div id="js-flash-container" data-turbo-replace>
-        <template class="js-flash-template">
-          <div class="flash flash-full   {{ className }}">
-            <div class="px-2" >
-              <button autofocus class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
-                <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-                  <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-                </svg>
-              </button>
-              <div aria-atomic="true" role="alert" class="js-flash-alert">
-                <div>{{ message }}</div>
-              </div>
-            </div>
-          </div>
-        </template>
-      </div>
-      <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
-      <div
-        class="application-main "
-        data-commit-hovercards-enabled
-        data-discussion-hovercards-enabled
-        data-issue-and-pr-hovercards-enabled
-        >
-        <main class="font-mktg">
-          <div class="codespaces-hero pt-8 overflow-hidden" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark">
-            <div class="pt-10 pb-4 pb-md-7 d-flex flex-column px-3 pt-8 flex-lg-column flex-items-center text-center" data-hpc="">
-              <h1 class="h1-mktg col-10-max color-fg-default mx-auto">Notre <span>Bestseller</span></h1>
-              <p class="f3-mktg mt-4 color-fg-muted mx-auto col-7-max">Prix discount + Livraison offerte</p>
-              <div id="countdown"></div>
-              <script>
-              // Définir la date de fin du compte à rebours (ex. : 31 décembre 2023 à 23h59)
-              var countdownDate = new Date("June 7, 2023 18:59:59").getTime();
+  <title>MelindaGendia</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-              // Mettre à jour le compte à rebours toutes les secondes
-              var countdownTimer = setInterval(function() {
-                // Obtenir la date et l'heure actuelles
-                var now = new Date().getTime();
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-                // Calculer la différence entre la date de fin et la date actuelle
-                var distance = countdownDate - now;
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
 
-                // Calculer les jours, heures, minutes et secondes restantes
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-                // Afficher le compte à rebours dans l'élément avec l'ID "countdown"
-                document.getElementById("countdown").innerHTML = "Fin : " + hours + "h " + minutes + "m " + seconds + "s ";
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-                // Si le compte à rebours est terminé, afficher un message
-                if (distance < 0) {
-                  clearInterval(countdownTimer);
-                  document.getElementById("countdown").innerHTML = "Le compte à rebours est terminé !";
-                }
-              }, 1000);
-              </script>
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="images/mugfleur.png" height="350"/></div>
-                  <div class="swiper-slide"><img src="images/mugfleur1.png" height="350"/></div>
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-              <div class="mt-4 mt-md-6 mb-4 position-relative z-2 by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row" >
-                <div class="by-2 by-lg-0 bx-lg-2 d-flex flex-column flex-lg-row">
-                  <script async
-                    src="https://js.stripe.com/v3/buy-button.js">
-                  </script>
+<body>
 
-                  <stripe-buy-button
-                    buy-button-id="buy_btn_1NG5B3CgjaEg7MSO3l1aunVI"
-                    publishable-key="pk_live_51MbaYgCgjaEg7MSOR9Q5fNWRybkEIFDD1A4eMoKXLlOEPui6RrpvY0HhPlZRq0mPRmzFytKtacqrdpwbVq4l4Srx00oaiVHOeM"
-                  >
-                  </stripe-buy-button>
-              </div>
-            </div>
-          </div>
-        </main>
-      </div>
-
-      <div id="ajax-error-message" class="ajax-error-message flash flash-error" hidden>
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-          <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-        </svg>
-        <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-            <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-          </svg>
-        </button>
-        You can’t perform that action at this time.
-      </div>
-      <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
-        >
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
-          <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-        </svg>
-        <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
-        <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
-      </div>
-      <template id="site-details-dialog">
-        <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default hx_rsm" open>
-          <summary role="button" aria-label="Close dialog"></summary>
-          <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
-            <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-                <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
-              </svg>
-            </button>
-            <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
-          </details-dialog>
-        </details>
-      </template>
-      <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
-        <div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width:360px;">
-        </div>
-      </div>
-      <template id="snippet-clipboard-copy-button">
-        <div class="zeroclipboard-container position-absolute right-0 top-0">
-          <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
-              <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path>
-              <path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-            </svg>
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
-              <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-            </svg>
-          </clipboard-copy>
-        </div>
-      </template>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+      <i class="bi bi-clock-fill"></i>
+      <span>-30% formation DevPerso (fin <span id="countdown-time"></span>)</span>
     </div>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-      function initSwiper() {
-        var swiperContainer = document.querySelector('.swiper-container');
-        var existingSwiper = swiperContainer.swiper;
-        if (existingSwiper) {
-          existingSwiper.destroy(true, true);
-        }
-        var swiper = new Swiper('.swiper-container', {
-          loop: true,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-        });
-      }
+  </section>
 
-      // Initialisation du diaporama lors du chargement initial
-      initSwiper();
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      // Réinitialisation du diaporama lorsque la page est chargée à nouveau
-      window.addEventListener('pageshow', function(event) {
-        // Vérifie si la page est chargée depuis le cache
-        if (event.persisted) {
-          // Réinitialise le diaporama
-          initSwiper();
-        }
-      });
-    </script>
+      <div class="logo me-auto">
+        <h1><a href="index.html">MelindaGendia</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
 
-    <script>
-      const today = new Date();
-      today.setDate(today.getDate() + 1); // Set minimum date to tomorrow
-      document.getElementById("date").setAttribute("min", today.toISOString().split('T')[0]);
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Qui-suis-je</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Formation</a></li>
+          <li><a class="nav-link scrollto" href="#events">Contenu</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Pourquoi</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Galerie</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Accès</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Formation</a></li>
+              <li class="dropdown"><a href="#"><span>Modules</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Module 1</a></li>
+                  <li><a href="#">Module 2</a></li>
+                  <li><a href="#">Module 3</a></li>
+                  <li><a href="#">Module 4</a></li>
+                  <li><a href="#">Module 5</a></li>
+                  <li><a href="#">Module 6</a></li>
+                  <li><a href="#">Module 7</a></li>
+                  <li><a href="#">Module 8</a></li>
+                  <li><a href="#">Module 9</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Coaching</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-      const maxDate = new Date();
-      maxDate.setDate(maxDate.getDate() + 14); // Set maximum date to 14 days from now
-      document.getElementById("date").setAttribute("max", maxDate.toISOString().split('T')[0]);
-    </script>
-    <div id="js-global-screen-reader-notice" class="sr-only" aria-live="polite" ></div>
-  </body>
+      <a href="#book-a-table" class="book-a-table-btn scrollto">Rejoindre</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Confiance en soi</span></h2>
+                <p class="animate__animated animate__fadeInUp">Je vais vous aider à developper votre confiance en vous.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Formation</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Rejoindre</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Meilleure version de soi</span></h2>
+                <p class="animate__animated animate__fadeInUp">Je vais vous aider à devenir la meilleure version de vous.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Formation</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Rejoindre</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown"><span>Choisir de briller</span></h2>
+                <p class="animate__animated animate__fadeInUp">Je vais vous aider à exprimer votre plein potentiel.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Formation</a>
+                  <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Rejoindre</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3>Je suis Melinda Gendia, <strong>Éducatrice DevPerso</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Whu Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Mes<span> services</span></h2>
+          <p>Je vais vous transmettre tout ce que j'ai appris au sujet du développement personnel qui a permis d'etre ce que je suis aujourd'hui.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box">
+              <span>01</span>
+              <h4>Formation DevPerso</h4>
+              <p>La formation DevPerso est la formation la plus complète au sujet du développement que vous pouvez trouver sur le marché. J'y aborde tous les sujets importants que vous devez absolument connaitre dans votre quête d'améloration continue.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>02</span>
+              <h4>Module DevPerso</h4>
+              <p>J'ai décidé de permettre également l'achat de modules de la formation pour ceux qui ne sont interressés que par quelques sujets abordés.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box">
+              <span>03</span>
+              <h4>Coaching personnalisé</h4>
+              <p>Enfin, je vous propose un coaching personnlisé en visioconference pour ceux qui le souhaitent.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Whu Us Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Formation <span>DevPerso</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Show All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Module 1</a><span>25.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Module 2</a><span>26.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Module 3</a><span>27.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Module 4</a><span>28.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Module 5</a><span>29.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <div class="menu-content">
+              <a href="#">Module 6</a><span>24.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Module 7</a><span>29.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Module 8</a><span>29.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <div class="menu-content">
+              <a href="#">Module 9</a><span>22.95€</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Ce que vous allez <span>apprendre...</span></h2>
+        </div>
+
+        <div class="events-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/blog-confiance.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Avoir confiance en soi</h3>
+                  <div class="price">
+                    <p><span>Module 1</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/blog-charisme.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Dévélopper son charisme</h3>
+                  <div class="price">
+                    <p><span>Module 2</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/blog-potentiel.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Libérer son plein potentiel</h3>
+                  <div class="price">
+                    <p><span>Module 3</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                  </ul>
+                  <p>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Pourquoi suivre ma formation<span> DevPerso</span></h2>
+          <p>Voici quelques raisons de suivre ma formation DevPerso</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Je suis certifiée et experimentée</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Formation personnalisée</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Ressources complémentaires</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Accès à mon réseau</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Satisfait ou remboursé</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Je suis certifiée et expérimentée...</h3>
+                    <p class="fst-italic">Je suis une éducatrice certifiée et expérimentée dans le domaine du développement personnel.</p>
+                    <p>J’ai accompagné des centaines de personnes dans leur parcours de changement et de réussite.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Formation personnalisée...</h3>
+                    <p class="fst-italic">Je vous propose une formation personnalisée et adaptée à vos besoins, à votre rythme et à votre budget.</p>
+                    <p>Vous pouvez choisir les modules qui vous intéressent et bénéficier d’un suivi individuel tout au long de la formation.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Ressources complémentaires...</h3>
+                    <p class="fst-italic">Je vous donne accès à une plateforme en ligne où vous trouverez des ressources complémentaires.</p>
+                    <p>Des blogs, des vidéos, des podcasts, des exercices et des quiz seront mis à disposition pour renforcer vos apprentissages.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Accès à mon réseau...</h3>
+                    <p class="fst-italic">Je vous fais bénéficier d’un réseau de personnes qui partagent les mêmes valeurs et les mêmes objectifs que vous.</p>
+                    <p>Vous pourrez échanger avec eux, vous entraider et vous motiver mutuellement.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Satisfait ou remboursé...</h3>
+                    <p class="fst-italic">Je vous offre une garantie de satisfaction.</p>
+                    <p>Si vous n’êtes pas satisfait de la formation, vous pouvez demander un remboursement intégral dans les 30 jours suivant votre inscription.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container position-relative">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Marc</h3>
+                <h4>CEO d’une start-up</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Grâce à cette formation, j’ai pu prendre du recul sur ma vie professionnelle et personnelle, et me fixer de nouveaux défis. J’ai appris à mieux me connaître, à gérer mon stress et à communiquer efficacement. Je recommande cette formation à tous les CEO qui veulent se réinventer et booster leur leadership.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Jing</h3>
+                <h4>Étudiante en master</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Cette formation a été une révélation pour moi. J’ai découvert mes forces, mes faiblesses, mes valeurs et mes passions. J’ai gagné en confiance en moi et en motivation. J’ai pu définir mon projet professionnel et me lancer dans la réalisation de mes rêves. Cette formation est un cadeau que je me suis fait et que je ne regrette pas.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Sarah</h3>
+                <h4>Business women</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Je suis une business woman qui n’a pas le temps de s’occuper d’elle. J’ai décidé de suivre cette formation en développement personnel pour me faire plaisir et me ressourcer. Je ne m’attendais pas à autant de bénéfices. Cette formation m’a permis de me reconnecter à moi-même, à mes besoins, à mes envies. Elle m’a apporté plus de sérénité, de joie et de sens dans ma vie. Je conseille cette formation à toutes les femmes qui veulent se faire du bien et se révéler.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Alain</h3>
+                <h4>Coach en développement personnel</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  En tant que coach, je suis toujours à la recherche de nouvelles méthodes et de nouveaux outils pour accompagner mes clients. J’ai suivi cette formation en développement personnel pour enrichir ma pratique et me former moi-même. J’ai été bluffé par la qualité du contenu, la pédagogie du formateur et l’accompagnement personnalisé. Cette formation m’a apporté de nouvelles connaissances, de nouvelles compétences et de nouvelles perspectives. Je la recommande à tous les coachs qui veulent se perfectionner et se différencier.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Julien</h3>
+                <h4>Entrepreneur web</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  En tant qu’entrepreneur, je cherchais une formation qui me permette de développer mes compétences personnelles et professionnelles. J’ai trouvé ce que je cherchais avec cette formation en développement personnel. Elle m’a aidé à clarifier ma vision, à optimiser mon organisation, à renforcer ma créativité et à surmonter les obstacles. Cette formation est un investissement rentable pour tout entrepreneur qui veut réussir.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="book-a-table" class="book-a-table">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Rejoindre la formation <span>DevPerso</span></h2>
+          <p>Choisisez dès aujourd'hui de vous liberer des chaines qui vous empechent de vivre la vie à laquelle vous avez été destinée.</p>
+        </div>
+        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+          <div class="text-center"><button type="submit">Rejoindre pour 199€</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Book A Table Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Me suivre sur<span> Instagram</span></h2>
+          <p>Me dire bonjour sur Instagram</p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Mon <span>Blog</span></h2>
+          <p>Découvrir mes articles sur le développement personnel</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Contrôler ses émotions</h4>
+                <span>13/06/2023</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-2.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Obtenir une promotion</h4>
+                <span>14/06/2023</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-3.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Devenir discipliné</h4>
+                <span>15/06/2023</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Contact</span></h2>
+          <p>Comment puis-je vous aider ?</p>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nom" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="text-center"><button type="submit">Soumettre</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>MelindaGendia</h3>
+      <p>Changer de vie maintenant.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright 2023 <strong><span>MelindaGendia</span></strong>. Tous droits réservés
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+  function updateCountdown() {
+    var now = new Date();
+
+    // Date et heure de fin du compte à rebours (à définir selon vos besoins)
+    var endDateTime = new Date('2023-06-12T10:30:00'); // Format: YYYY-MM-DDTHH:mm:ss
+
+    var timeRemaining = endDateTime - now;
+
+    var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+    var countdownString = hours.toString().padStart(2, '0') + "h " + minutes.toString().padStart(2, '0') + "m " + seconds.toString().padStart(2, '0') + "s";
+    document.getElementById("countdown-time").innerHTML = countdownString;
+  }
+
+  setInterval(updateCountdown, 1000);
+  </script>
+
+</body>
+
 </html>
