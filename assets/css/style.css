@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffc064;
+  color: #381054;
 }
 
 a:hover {
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc064;
+  background: #381054;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffc064;
+  background: #381054;
   color: #fff;
 }
 
@@ -88,7 +88,7 @@ h6 {
 }
 
 #topbar i {
-  color: #ffb03b;
+  color: #381054;
   line-height: 0;
 }
 
@@ -143,7 +143,7 @@ h6 {
 # Book a table button Menu
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #ffb03b;
+  background: #381054;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -156,7 +156,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #ffa012;
+  background: #D1C3FF;
   color: #fff;
 }
 
@@ -214,7 +214,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb03b;
+  color: #D1C3FF;
 }
 
 .navbar .dropdown ul {
@@ -251,7 +251,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ffc064;
+  color: #381054;
 }
 
 .navbar .dropdown:hover>ul {
@@ -347,7 +347,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ffc064;
+  color: #381054;
 }
 
 .navbar-mobile .getstarted,
@@ -382,7 +382,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ffc064;
+  color: #381054;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -441,7 +441,7 @@ h6 {
 }
 
 #hero h2 span {
-  color: #ffc064;
+  color: #381054;
 }
 
 #hero p {
@@ -519,12 +519,12 @@ h6 {
   margin: 0 10px;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #D1C3FF;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #ffb03b;
+  background: #D1C3FF;
   color: #fff;
 }
 
@@ -569,7 +569,7 @@ section {
 }
 
 .section-title h2 span {
-  color: #ffb03b;
+  color: #381054;
 }
 
 .section-title p {
@@ -689,7 +689,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
-  color: #ffc064;
+  color: #381054;
   position: absolute;
   left: 0;
   top: 2px;
@@ -710,7 +710,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffc064 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#381054 50%, rgba(255, 176, 59, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -753,7 +753,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffc064;
+  border-left: 15px solid #381054;
   transform: scale(20);
 }
 
@@ -819,7 +819,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #ffcf88;
+  color: #381054;
 }
 
 .why-us .box h4 {
@@ -838,7 +838,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #ffc064;
+  background: #381054;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -871,14 +871,14 @@ section {
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  border: 2px solid #ffc064;
+  border: 2px solid #381054;
   border-radius: 50px;
 }
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
   color: #fff;
-  background: #ffc064;
+  background: #381054;
 }
 
 .menu #menu-flters li:last-child {
@@ -910,7 +910,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: #ff9b08;
+  color: #381054;
 }
 
 .menu .menu-content span {
@@ -951,12 +951,12 @@ section {
 }
 
 .specials .nav-link:hover {
-  color: #ffc064;
+  color: #381054;
 }
 
 .specials .nav-link.active {
-  color: #ffc064;
-  border-color: #ffc064;
+  color: #381054;
+  border-color: #381054;
 }
 
 .specials .tab-pane.active {
@@ -986,7 +986,7 @@ section {
 
   .specials .nav-link.active {
     color: #fff;
-    background: #ffc064;
+    background: #381054;
   }
 }
 
@@ -1035,7 +1035,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #ffc064;
+  color: #D1C3FF;
 }
 
 .events .event-item .price {
@@ -1046,7 +1046,7 @@ section {
 }
 
 .events .event-item .price span {
-  border-bottom: 2px solid #ffc064;
+  border-bottom: 2px solid #D1C3FF;
 }
 
 .events .event-item ul {
@@ -1061,7 +1061,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ffc064;
+  color: #D1C3FF;
 }
 
 .events .event-item p:last-child {
@@ -1081,7 +1081,7 @@ section {
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc064;
+  background-color: #D1C3FF;
 }
 
 /*--------------------------------------------------------------
@@ -1163,7 +1163,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit] {
-  background: #ffc064;
+  background: #381054;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1172,7 +1172,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #D1C3FF;
 }
 
 /*--------------------------------------------------------------
@@ -1282,7 +1282,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #ffc064;
+  color: #381054;
 }
 
 .chefs .member .social i {
@@ -1402,7 +1402,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffc064;
+  background-color: #D1C3FF;
 }
 
 @media (min-width: 992px) {
@@ -1425,7 +1425,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffc064;
+  color: #381054;
   float: left;
   width: 44px;
   height: 44px;
@@ -1454,7 +1454,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #ffc064;
+  background: #381054;
   color: #fff;
 }
 
@@ -1522,7 +1522,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffc064;
+  background: #381054;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1531,7 +1531,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ffa012;
+  background: #D1C3FF;
 }
 
 @keyframes animate-loading {
@@ -1558,7 +1558,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffb03b;
+  color: #381054;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1591,7 +1591,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ffb03b;
+  background: #381054;
 }
 
 #footer .copyright {
