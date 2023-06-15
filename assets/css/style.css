@@ -1601,3 +1601,29 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+#playlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
