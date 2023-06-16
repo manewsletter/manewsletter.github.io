@@ -31,7 +31,7 @@
                         <h5 class="mt-3 mb-3">Welcome to Vidoe</h5>
                         <p>It is a long established fact that a reader <br> will be distracted by the readable.</p>
                      </div>
-                     <form action="https://askbootstrap.com/preview/vidoe-v1-1/index.html">
+                     <form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data" >
                         <div class="form-group">
                            <label>Email</label>
                            <input type="text" class="form-control"placeholder="monalisa@email.com" id="login_email">
@@ -120,31 +120,6 @@
         const auth = getAuth();
         console.log(app);
 
-
-
-        //----- New Registration code start
-        document.getElementById("register").addEventListener("click", function() {
-         var email =  document.getElementById("email").value;
-         var password = document.getElementById("password").value;
-         //For new registration
-         createUserWithEmailAndPassword(auth, email, password)
-         .then((userCredential) => {
-           // Signed in
-           const user = userCredential.user;
-           console.log(user);
-           alert("Registration successfully!!");
-           // ...
-         })
-         .catch((error) => {
-           const errorCode = error.code;
-           const errorMessage = error.message;
-           // ..
-           console.log(errorMessage);
-           alert(error);
-         });
-        });
-        //----- End
-
         //----- Login code start
         document.getElementById("login").addEventListener("click", function() {
          var email =  document.getElementById("login_email").value;
@@ -156,7 +131,7 @@
            const user = userCredential.user;
            console.log(user);
            alert(user.email+" Login successfully!!!");
-           document.getElementById('logout').style.display = 'block';
+           window.location.href = "formations.html";
            // ...
          })
          .catch((error) => {
@@ -165,20 +140,6 @@
            console.log(errorMessage);
            alert(errorMessage);
          });
-        });
-        //----- End
-
-        //----- Logout code start
-        document.getElementById("logout").addEventListener("click", function() {
-         signOut(auth).then(() => {
-          // Sign-out successful.
-          console.log('Sign-out successful.');
-          alert('Sign-out successful.');
-          document.getElementById('logout').style.display = 'none';
-        }).catch((error) => {
-          // An error happened.
-          console.log('An error happened.');
-        });
         });
         //----- End
 
